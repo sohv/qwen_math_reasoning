@@ -1,0 +1,27 @@
+# Core dependencies
+ollama
+numpy
+pandas
+
+# For DSPy evaluation framework
+dspy-ai
+
+# For critic model (optional - choose one)
+google-generativeai  # For Gemini API
+python-dotenv
+
+# For fine-tuning (install on GPU-enabled environment)
+torch
+transformers
+datasets
+trl
+accelerate
+
+# For Jupyter notebooks
+jupyter
+ipykernel
+
+# Utilities
+tqdm
+matplotlib
+seaborn

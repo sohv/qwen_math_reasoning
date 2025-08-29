@@ -1,0 +1,6 @@
+env/
+venv/
+drafts/
+json/
+__pycache__/
+.venv/
