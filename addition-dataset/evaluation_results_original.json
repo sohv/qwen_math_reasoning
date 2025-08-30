@@ -1,0 +1,713 @@
+{
+  "analysis": {
+    "total_problems": 50,
+    "correct_answers": 0,
+    "accuracy": 0.0,
+    "error_rate": 100.0,
+    "total_errors": 50,
+    "parsing_errors": 50,
+    "calculation_errors": 0
+  },
+  "results": [
+    {
+      "numbers": [
+        893623,
+        378482,
+        648100,
+        675516,
+        278224,
+        984938
+      ],
+      "actual_answer": 3858883,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        990909,
+        666698,
+        385624,
+        304271,
+        544478,
+        435303
+      ],
+      "actual_answer": 3327283,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        113577,
+        740775,
+        692598,
+        490917,
+        479072,
+        619335
+      ],
+      "actual_answer": 3136274,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        167107,
+        373291,
+        942104,
+        298611,
+        567615,
+        153106
+      ],
+      "actual_answer": 2501834,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        831537,
+        907435,
+        203485,
+        174910,
+        832090,
+        218983
+      ],
+      "actual_answer": 3168440,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        299851,
+        472909,
+        784683,
+        146449,
+        177421,
+        889578
+      ],
+      "actual_answer": 2770891,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        168006,
+        271588,
+        414421,
+        956808,
+        908981,
+        292641
+      ],
+      "actual_answer": 3012445,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        518856,
+        129093,
+        708987,
+        988014,
+        594621,
+        538045
+      ],
+      "actual_answer": 3477616,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        440308,
+        149025,
+        463289,
+        363304,
+        481865,
+        244956
+      ],
+      "actual_answer": 2142747,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        785918,
+        897099,
+        462318,
+        359025,
+        262844,
+        476832
+      ],
+      "actual_answer": 3244036,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        891314,
+        120517,
+        645656,
+        156296,
+        810953,
+        163364
+      ],
+      "actual_answer": 2788100,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        384177,
+        235398,
+        572049,
+        389204,
+        694212,
+        212497
+      ],
+      "actual_answer": 2487537,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        804726,
+        469358,
+        510554,
+        534279,
+        546180,
+        676919
+      ],
+      "actual_answer": 3542016,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        993739,
+        924359,
+        819797,
+        135037,
+        146756,
+        375733
+      ],
+      "actual_answer": 3395421,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        883523,
+        153582,
+        605537,
+        327130,
+        441091,
+        861669
+      ],
+      "actual_answer": 3272532,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        630290,
+        419320,
+        324398,
+        800098,
+        209642,
+        484896
+      ],
+      "actual_answer": 2868644,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        379436,
+        292792,
+        124185,
+        563246,
+        178294,
+        209978
+      ],
+      "actual_answer": 1747931,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        314088,
+        891167,
+        945376,
+        494570,
+        196063,
+        380278
+      ],
+      "actual_answer": 3221542,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        524440,
+        942182,
+        604325,
+        903956,
+        445418,
+        475323
+      ],
+      "actual_answer": 3895644,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        517816,
+        972003,
+        161701,
+        823472,
+        601215,
+        497140
+      ],
+      "actual_answer": 3573347,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        620330,
+        900567,
+        618085,
+        457242,
+        491179,
+        809615
+      ],
+      "actual_answer": 3897018,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        166463,
+        186324,
+        546074,
+        973035,
+        860851,
+        306219
+      ],
+      "actual_answer": 3038966,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        854077,
+        791894,
+        405167,
+        385808,
+        955934,
+        583835
+      ],
+      "actual_answer": 3976715,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        717515,
+        438418,
+        889902,
+        194224,
+        987449,
+        692387
+      ],
+      "actual_answer": 3919895,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        107026,
+        742453,
+        789568,
+        179559,
+        158442,
+        464100
+      ],
+      "actual_answer": 2441148,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        571249,
+        492885,
+        108506,
+        603452,
+        835577,
+        881099
+      ],
+      "actual_answer": 3492768,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        647064,
+        232951,
+        140055,
+        393304,
+        412189,
+        825245
+      ],
+      "actual_answer": 2650808,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        994200,
+        519453,
+        488637,
+        149229,
+        308506,
+        891498
+      ],
+      "actual_answer": 3351523,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        652454,
+        468327,
+        710315,
+        482931,
+        649222,
+        897463
+      ],
+      "actual_answer": 3860712,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        700077,
+        504203,
+        468903,
+        457103,
+        219278,
+        301804
+      ],
+      "actual_answer": 2651368,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        243158,
+        820333,
+        918818,
+        628931,
+        419633,
+        576326
+      ],
+      "actual_answer": 3607199,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        344673,
+        437033,
+        829509,
+        538636,
+        838387,
+        712027
+      ],
+      "actual_answer": 3700265,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        233915,
+        624987,
+        564550,
+        461426,
+        402624,
+        678189
+      ],
+      "actual_answer": 2965691,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        820502,
+        505814,
+        583694,
+        791120,
+        704969,
+        682108
+      ],
+      "actual_answer": 4088207,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        615466,
+        654564,
+        207148,
+        541336,
+        796554,
+        532574
+      ],
+      "actual_answer": 3347642,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        564162,
+        911161,
+        690715,
+        661361,
+        739710,
+        740829
+      ],
+      "actual_answer": 4307938,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        536830,
+        990625,
+        491616,
+        864099,
+        867507,
+        302433
+      ],
+      "actual_answer": 4053110,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        163627,
+        207127,
+        523151,
+        730315,
+        234701,
+        896484
+      ],
+      "actual_answer": 2755405,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        943230,
+        331469,
+        607802,
+        940405,
+        193739,
+        794233
+      ],
+      "actual_answer": 3810878,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        820389,
+        284425,
+        152874,
+        620767,
+        350434,
+        392414
+      ],
+      "actual_answer": 2621303,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        202063,
+        424114,
+        183277,
+        668747,
+        666311,
+        378016
+      ],
+      "actual_answer": 2522528,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        943064,
+        151358,
+        324730,
+        603449,
+        812239,
+        948468
+      ],
+      "actual_answer": 3783308,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        710365,
+        993495,
+        814365,
+        125319,
+        950882,
+        972282
+      ],
+      "actual_answer": 4566708,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        915952,
+        209457,
+        429102,
+        782600,
+        845006,
+        126835
+      ],
+      "actual_answer": 3308952,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        138684,
+        356609,
+        193703,
+        649600,
+        667855,
+        954760
+      ],
+      "actual_answer": 2961211,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        183560,
+        668722,
+        757544,
+        497357,
+        696808,
+        149674
+      ],
+      "actual_answer": 2953665,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        448270,
+        951787,
+        961984,
+        441166,
+        307097,
+        241520
+      ],
+      "actual_answer": 3351824,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        132894,
+        786835,
+        933457,
+        259544,
+        409419,
+        175725
+      ],
+      "actual_answer": 2697874,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        396761,
+        709521,
+        322467,
+        998225,
+        247069,
+        498398
+      ],
+      "actual_answer": 3172441,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    },
+    {
+      "numbers": [
+        840160,
+        286498,
+        316346,
+        739583,
+        978271,
+        569811
+      ],
+      "actual_answer": 3730669,
+      "model_response": "Error: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+      "generated_answer": null,
+      "correct": false
+    }
+  ]
+}

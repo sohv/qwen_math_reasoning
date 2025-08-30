@@ -38,9 +38,16 @@ class AdditionFineTuner:
         # Load model
         self.model = AutoModelForCausalLM.from_pretrained(
             self.model_name,
-            torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+            torch_dtype=torch.float32,  # Use float32 to avoid precision issues
             device_map="auto" if torch.cuda.is_available() else None,
         )
+        
+        # Ensure model is in training mode
+        self.model.train()
+        
+        # Enable gradient checkpointing to save memory
+        if hasattr(self.model, 'gradient_checkpointing_enable'):
+            self.model.gradient_checkpointing_enable()
         
     def load_dataset(self, train_file: str, val_file: str = None):
         """Load the training and validation datasets."""
@@ -70,13 +77,35 @@ class AdditionFineTuner:
             self.val_dataset = Dataset.from_dict({"text": val_texts})
         else:
             self.val_dataset = None
+        
+    def check_dataset_sample(self):
+        """Check a sample from the dataset to ensure proper formatting."""
+        if hasattr(self, 'train_dataset'):
+            print("Dataset sample:")
+            sample_text = self.train_dataset[0]['text']
+            print(f"First example: {sample_text[:300]}...")
+            print(f"Training dataset size: {len(self.train_dataset)}")
+            if self.val_dataset:
+                print(f"Validation dataset size: {len(self.val_dataset)}")
+            
+            # Check tokenization
+            tokens = self.tokenizer.encode(sample_text)
+            print(f"Sample token count: {len(tokens)}")
+            print(f"Sample tokens (first 10): {tokens[:10]}")
+            
+            # Check if tokenizer can decode properly
+            decoded = self.tokenizer.decode(tokens)
+            print(f"Decoded sample matches: {decoded == sample_text}")
+        else:
+            print("No dataset loaded yet.")
     
     def _convert_qwen_to_text(self, data):
         """Convert Qwen instruction format to text format for training."""
         texts = []
         
         for item in data:
-            text = f"<|im_start|>user\n{item['instruction']}: {item['input']}<|im_end|>\n<|im_start|>assistant\n{item['output']}<|im_end|>"
+            # Format as a proper conversation for Qwen
+            text = f"<|im_start|>user\n{item['instruction']}: {item['input']}<|im_end|>\n<|im_start|>assistant\n{item['output']}<|im_end|><|endoftext|>"
             texts.append(text)
         
         return texts
@@ -107,7 +136,7 @@ class AdditionFineTuner:
     def train(self, 
               output_dir: str = "./results",
               num_epochs: int = 3,
-              batch_size: int = 2,
+              batch_size: int = 1,  # Reduced from 2 to 1
               learning_rate: float = 2e-4,
               warmup_steps: int = 5,
               logging_steps: int = 1):
@@ -123,7 +152,7 @@ class AdditionFineTuner:
         training_args = TrainingArguments(
             per_device_train_batch_size=batch_size,
             per_device_eval_batch_size=batch_size,
-            gradient_accumulation_steps=1,
+            gradient_accumulation_steps=4,
             warmup_steps=warmup_steps,
             num_train_epochs=num_epochs,
             learning_rate=learning_rate,
@@ -135,7 +164,7 @@ class AdditionFineTuner:
             lr_scheduler_type="linear",
             seed=3407,
             output_dir=output_dir,
-            save_steps=max(1, len(self.train_dataset) // batch_size),
+            save_steps=max(1, len(self.train_dataset) // (batch_size * 4)),
             save_total_limit=3,
             eval_steps=max(1, len(self.train_dataset) // batch_size) if self.val_dataset else None,
             dataloader_pin_memory=False,
@@ -181,14 +210,17 @@ def main():
         # Load dataset
         finetuner.load_dataset(train_file, val_file)
         
+        # Check dataset formatting
+        finetuner.check_dataset_sample()
+        
         # Start training
         output_dir = "./finetuned_qwen_addition_model"
         finetuner.train(
             output_dir=output_dir,
             num_epochs=3,
-            batch_size=4 if torch.cuda.is_available() else 1,
-            learning_rate=2e-4,
-            warmup_steps=5,
+            batch_size=1,
+            learning_rate=5e-5,  # Much lower learning rate
+            warmup_steps=10,
             logging_steps=1
         )
         
